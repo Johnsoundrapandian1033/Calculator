@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1><i>CALCULATOR</i></h1>
+        <link rel="stylesheet" href="calculater.css">
+    </head>
+    <body>
+        <div class="Display">
+            <span id ="display"></span>
+        </div>
+        <div class = "btn">
+            <table id ="calc">
+                <tr>
+                    <td colspan="4"><input type ="text" id ="result" style="font-size:30px" ></td>
+                    
+                </tr>
+
+                <tr>
+                    <td><input id='ac'type="button" value="AC" onclick="clr()"style="color: azure;background-color:red"></td>
+                    <td><input id='del'type="button" value="DEL" onclick="del()"style="color: azure;background-color:red"></td>
+                    <td><input type="button" value='%' onclick="dis('%')"style="color: azure;"></td>
+                    <td> <input type ="button" value="/" onclick="dis('/')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                </tr>
+                <tr>
+                    <td> <input type ="button" value="1" style="color: azure;"onclick="dis('1')" onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="2" onclick="dis('2')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="3" onclick="dis('3')"style="color: azure;" onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="+" onclick="dis('+')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                </tr>
+                <tr>
+                    <td> <input type ="button" value="4" onclick="dis('4')" style="color: azure;" onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="5" onclick="dis('5')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="6" onclick="dis('6')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="-" onclick="dis('-')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                </tr>
+                <tr>
+                    <td> <input type ="button" value="7" onclick="dis('7')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="8" onclick="dis('8')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="9" onclick="dis('9')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="*" onclick="dis('*')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                </tr>
+                <tr>
+                    <td> <input type ="button" value="0" onclick="dis('0')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="." onclick="dis('.')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td> <input type ="button" value="^" onclick="dis('^')" style="color: azure;"onkeydown="myFunction(event)"></td>
+                    <td colspan="2"> <input id ="equalto" type ="button" value="=" onclick="solve()"style="color: azure;" ></td>
+                    
+                </tr>
+            <!-- <button id = "1"type="click" value ="1">1</button>
+            <button id = "2" type="click" value="2">2</button>
+            <button id = "3"type="click" value = "3">3</button>
+            <button id = "op"type="click" >+</button><br>
+            <button id = "4"type="click" value = "4">4</button>
+            <button id = "5"type="click" value = "5">5</button>
+            <button id = "6"type="click" value ="6">6</button>
+            <button id = "op"type="click" >-</button><br>
+            <button id = "7"type="click" value = "7">7</button>
+            <button id = "8"type="click" value = "8">8</button>
+            <button id = "9"type="click" value = "9">9</button>
+            <button id = "op"type="click">x</button><br>
+            <button id = "AC"type="click">AC</button>
+            <button id = "0"type="click" value = "0">0</button>
+            <button id = "eq"type="click">=</button>
+            <button id = "op"type="click">/</button> -->
+        
+        </table>
+        </div>
+        <script src ="calculator.js"></script>
+    </body>
+</html>

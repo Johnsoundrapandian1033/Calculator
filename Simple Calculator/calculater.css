@@ -1,0 +1,55 @@
+h1{
+    color:rgb(10, 65, 51);
+    text-align:center;
+    font-size:36px;
+    text-shadow: 1px 1px 10px lightslategray;
+}
+.btn{
+   background-color: aquamarine;
+   border:5px solid black;
+   
+}
+body{
+   background-color: lightgreen;
+}
+
+table{
+    margin:3% 38%;
+    /* width:20%; */
+    border:10px solid rgb(41, 39, 39);
+    background-color: rgb(39, 36, 36);
+    box-shadow: 1px 1px 20px  20px;
+    border-radius: 5% 5%;
+ }
+ #result{
+    width: 327px;
+    border:none;
+    text-align:right;
+    height:100px;
+    background-color: white;
+    border-radius: 25% 25%;
+ }
+ #ac{
+    height:60px;
+    
+ }
+ tr{
+    border:1px solid rgb(150, 132, 132);
+    border-radius: 5%;
+ }
+ td{
+    color:white;
+ }
+ 
+ 
+ 
+ input{
+    border:none;
+    text-align:center;
+    width:80px;
+    height:60px;
+    text-align:center;
+    font-size:24px;
+    background-color: rgb(85, 95, 104);
+ }
+ 
